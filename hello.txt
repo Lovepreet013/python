@@ -1,0 +1,16 @@
+This is just a text created to read using Python!!.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
+This is written to file using write() method.
