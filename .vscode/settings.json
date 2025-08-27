@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./Data Structures/Linked List",
+        "./Data Structures/Stack and Queue"
+    ],
+    "liveServer.settings.port": 5501
+}
