@@ -46,8 +46,6 @@ async def square(x):
 results = asyncio.run(square(8)) # In Newer version we do not need to manually create or manage the event loop
 # print(results)
 
-
-
 #other example to execute Multiple Tasks:
 
 #stimualte delay and returns the square of a number

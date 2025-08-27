@@ -61,16 +61,12 @@ class Min_Heap:
             
             self.__min_heapify(smallest)
     
-    def buildHeap(self, arr):
+    def build_heap(self, arr):
         self.heap = arr
         for i in range(len(arr)-1, -1, -1):
-            self.__minHeapify(i)
+            self.__min_heapify(i)
+        # return self.heap
 
 
 heap = Min_Heap()
-heap.insert(12)
-heap.insert(10)
-heap.insert(-10)
-heap.insert(100)
-
-print(heap.get_min())
+# print(heap.build_heap([87,4,2,98,100,-10]))

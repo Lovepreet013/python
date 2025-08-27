@@ -18,6 +18,7 @@ class Max_Heap:
             self.heap[0] = self.heap[-1]
             del self.heap[-1]
             self.__max_heapify(0)
+            return max
             
         elif len(self.heap) == 1:
             max = self.heap[0]
@@ -66,10 +67,10 @@ class Max_Heap:
         for i in range(len(arr) - 1, -1, -1 ):
             self.__max_heapify(i)
 
-heap = Max_Heap()
-heap.insert(12)
-heap.insert(10)
-heap.insert(-10)
-heap.insert(100)
+# heap = Max_Heap()
+# heap.insert(12)
+# heap.insert(10)
+# heap.insert(-10)
+# heap.insert(100)
 
-print(heap.heap)
+# print(heap.heap)
